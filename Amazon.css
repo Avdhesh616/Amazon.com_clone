@@ -6,7 +6,7 @@
 
 a:hover{
     text-decoration: underline;
-    color: blue;
+    /* font-size: 1em; */
     /* font-size: 1.1rem; */
 }
 
@@ -72,6 +72,7 @@ a:hover{
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
     border: none;
+    font-size: 18px;
 }
 .searchinput{
     width: 100%;
@@ -130,9 +131,10 @@ a:hover{
     ;
 }
 
-.paneloption p{
+.paneloption a{
     display: inline;
     margin-left: 15px;
+    color: white;
 }
 .paneloption{
     width: 70%;
